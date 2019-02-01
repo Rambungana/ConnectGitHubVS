@@ -144,11 +144,11 @@ int main() {
 		elements.push_back(element);
 	}
 	// call rearrange function
-	//vector<int> sorted_elements = rearrange(elements);
+	vector<int> sorted_elements = rearrange(elements);
 
-	//for (unsigned int i = 0; i < n; ++i) {
-		//cout << sorted_elements[i] << endl;
-	//}
+	for (unsigned int i = 0; i < n; ++i) {
+		cout << sorted_elements[i] << endl;
+	}
 	std::cout << "Hello World!\n";
 
 	return 0;
