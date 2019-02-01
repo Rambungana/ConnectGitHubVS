@@ -143,13 +143,14 @@ int main() {
 		cin >> element;
 		elements.push_back(element);
 	}
+	std::cout << "Sorting elements!\n";
 	// call rearrange function
 	vector<int> sorted_elements = rearrange(elements);
 
 	for (unsigned int i = 0; i < n; ++i) {
 		cout << sorted_elements[i] << endl;
 	}
-	std::cout << "Hello World!\n";
+	
 
 	return 0;
 }
